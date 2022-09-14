@@ -10,3 +10,4 @@
 7. There is info provided regarding CONTENT_LENGTH and CONTENT_TYPE with the post command. This info is not present with the regular command.
     Also the request method is indicated to be POST instead of GET with the post command.
     Post methods are useful for sending encrypted data to a server/source without any traces (i.e. it is not cached).
+8. https://raw.githubusercontent.com/moxil-shah/lab_01/master/version_of_requests_%26_print_sc.py
