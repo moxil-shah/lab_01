@@ -1,0 +1,12 @@
+1. https://github.com/moxil-shah
+2. 2.25.1
+3. 2.28.1 
+4. A virtual environment is an isolated enviroment with isolated dependencies and python packages for Python projects. The not
+virtual environment is an python enviroment accessible by all projects inside of it and the python packages here have inconsistent versions.
+Case in point, the versions of the request module are different in the virtual and not virutal enivronment.
+5. Status code 301. To get a 200 status code, I must visit http://www.google.com/.
+6. Status code 301 is returned for http://google.com/teapot useing curl -i. Status code 301 and 418 is returned for http://google.com/teapot useing curl -iL.
+    If I curl http://www.google.com/teapot, I get status code 418.
+7.  There is info provided regarding CONTENT_LENGTH and CONTENT_TYPE with the post and not without the post.
+    Also the request method is indicated to be POST instead of GET.
+    Post methods are useful for sending encrypted data to a server/source without any traces (i.e. it is not cached).
